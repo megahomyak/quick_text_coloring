@@ -7,6 +7,10 @@ I am regular text
 I am regular again
 ```
 
+## How to escape "|"
+
+Impossible ATM. Deal with it yourself somehow
+
 # Usage
 
 * Put your input into `input.txt`
