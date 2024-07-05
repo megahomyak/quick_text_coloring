@@ -6,10 +6,7 @@ parts = iter(input_.split("|"))
 
 def roll():
     try:
-        part = next(parts)
-        while part.endswith("\\"):
-            part += next(parts)
-        return part
+        return next(parts)
     except StopIteration:
         print(body)
         raise
